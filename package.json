@@ -1,0 +1,35 @@
+{
+  "name": "hello-nextjs",
+  "homepage": "https://liyan827.github.io/hello-nextjs/", 
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start",
+    "lint": "next lint",
+    "deploy": "gh-pages -d out"
+  },
+  "dependencies": {
+    "date-fns": "^2.29.3",
+    "gray-matter": "^4.0.3",
+    "next": "13.1.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "remark": "^14.0.2",
+    "remark-html": "^15.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "@types/react": "^18.0.27",
+    "classnames": "^2.3.2",
+    "eslint": "8.33.0",
+    "eslint-config-next": "13.1.6",
+    "gh-pages": "^5.0.0",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-preset-env": "^8.0.1",
+    "sass": "^1.58.0",
+    "tailwindcss": "^3.2.4",
+    "typescript": "^4.9.5"
+  }
+}
