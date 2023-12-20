@@ -4,5 +4,6 @@ import { NextApiRequest, NextApiResponse } from 'next'
 export default function handler(req:NextApiRequest, res:NextApiResponse) {
   const email = req.body.email;
   // Then save email to your database, etc...
-  res.status(200).json({ name: 'John Doe' })
+  const data = { header: req.headers, url: req.url, name: 'Macondo' };
+  res.status(200).json(data);
 }
