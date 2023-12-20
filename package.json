@@ -1,10 +1,10 @@
 {
   "name": "hello-nextjs",
-  "homepage": "https://liyan827.github.io/hello-nextjs/", 
+  "homepage": "https://liyan827.github.io/hello-nextjs/",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "node index.js",
     "build": "next build && next export",
     "start": "next start",
     "lint": "next lint",
@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "date-fns": "^2.29.3",
+    "express": "^4.18.2",
     "gray-matter": "^4.0.3",
     "next": "13.1.6",
     "react": "18.2.0",
